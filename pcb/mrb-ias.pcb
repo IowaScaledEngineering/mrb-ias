@@ -986,7 +986,7 @@ Element["" "0805" "C5" "1uF" 62500 12500 -2500 7000 0 100 ""]
 
 	)
 
-Element["hidename" "STANDOFF_HEX_n4" "H1" "unknown" 221500 40500 0 10000 0 100 ""]
+Element["hidename" "STANDOFF_HEX_n4" "H2" "unknown" 221500 40500 0 10000 0 100 ""]
 (
 	Pin[0 0 29368 2000 29968 12850 "1" "1" ""]
 
