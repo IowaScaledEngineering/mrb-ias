@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 293000 81000]
 
 Grid[500.0 0 0 0]
-Cursor[52000 500 0.000000]
+Cursor[40500 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 1000 2000 800]
@@ -909,7 +909,7 @@ Element["" "0805" "C2" "1uF" 151000 60500 -3000 7000 0 100 ""]
 
 	)
 
-Element["" "0805" "C8" "0.1uF" 233500 13500 -2500 7000 0 100 ""]
+Element["" "0805" "C6" "1uF" 233500 13500 -2500 7000 0 100 ""]
 (
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "1" "1" "square"]
 	Pad[-393 3543 393 3543 5118 2000 5718 "2" "2" "square"]
@@ -918,7 +918,7 @@ Element["" "0805" "C8" "0.1uF" 233500 13500 -2500 7000 0 100 ""]
 
 	)
 
-Element["" "0805" "C7" "22pF" 112000 11000 -2650 6850 0 100 ""]
+Element["" "0805" "C4" "22pF" 112000 11000 -2650 6850 0 100 ""]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "square"]
@@ -927,7 +927,7 @@ Element["" "0805" "C7" "22pF" 112000 11000 -2650 6850 0 100 ""]
 
 	)
 
-Element["" "0805" "C6" "22pF" 171000 11000 -2478 6850 0 100 ""]
+Element["" "0805" "C3" "22pF" 171000 11000 -2478 6850 0 100 ""]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "square"]
@@ -970,7 +970,7 @@ Element["" "TERMBLK2_200MIL" "J3" "unknown" 268500 20500 -24500 -13000 1 100 ""]
 
 	)
 
-Element["" "SOD123" "D5" "unknown" 228000 74500 -18500 -2815 0 100 ""]
+Element["" "SOD123" "D3" "unknown" 228000 74500 -18500 -2815 0 100 ""]
 (
 	Pad[-6400 -600 -6400 600 3600 0 4200 "cathode" "1" "square"]
 	Pad[6500 -600 6500 600 3600 0 4200 "anode" "2" "square"]
@@ -1355,7 +1355,7 @@ Layer(1 "component")
 	Line[81000 5000 82500 3500 2500 2000 "clearline"]
 	Line[82500 3500 104500 3500 2500 2000 "clearline"]
 	Line[104500 3500 106500 5500 2500 2000 "clearline"]
-	Line[106500 5500 106500 8000 2500 2000 "clearline"]
+	Line[106500 5500 106500 33000 2500 2000 "clearline"]
 	Line[63500 15000 96000 15000 2000 2000 "clearline"]
 	Line[96000 15000 101000 10000 2000 2000 "clearline"]
 	Line[60500 73000 70500 73000 2500 2000 "clearline"]
@@ -1651,7 +1651,7 @@ NetList()
 	Net("+5V" "(unknown)")
 	(
 		Connect("C2-1")
-		Connect("C8-1")
+		Connect("C6-1")
 		Connect("J2-2")
 		Connect("JP1-1")
 		Connect("R1-2")
@@ -1689,10 +1689,10 @@ NetList()
 	(
 		Connect("C1-2")
 		Connect("C2-2")
+		Connect("C3-2")
+		Connect("C4-2")
 		Connect("C5-2")
 		Connect("C6-2")
-		Connect("C7-2")
-		Connect("C8-2")
 		Connect("D1-1")
 		Connect("J1-2")
 		Connect("J2-6")
@@ -1717,13 +1717,13 @@ NetList()
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("C6-1")
+		Connect("C3-1")
 		Connect("U2-7")
 		Connect("Y1-1")
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("C7-1")
+		Connect("C4-1")
 		Connect("U2-8")
 		Connect("Y1-2")
 	)
@@ -1808,13 +1808,13 @@ NetList()
 	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("C1-1")
-		Connect("D5-1")
+		Connect("D3-1")
 		Connect("R2-2")
 		Connect("U1-3")
 	)
 	Net("VIN" "(unknown)")
 	(
-		Connect("D5-2")
+		Connect("D3-2")
 		Connect("J1-1")
 		Connect("J4-1")
 		Connect("J4-3")

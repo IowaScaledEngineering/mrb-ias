@@ -96,7 +96,7 @@ C 57100 49300 1 270 0 capacitor-1.sym
 T 57800 49100 5 10 0 1 270 0 1
 device=CAPACITOR
 T 57400 49000 5 10 1 1 0 0 1
-refdes=C7
+refdes=C4
 T 58000 49100 5 10 0 0 270 0 1
 symversion=0.1
 T 57400 48500 5 10 1 1 0 0 1
@@ -157,7 +157,7 @@ C 56800 49300 1 90 1 capacitor-1.sym
 T 56100 49100 5 10 0 1 270 2 1
 device=CAPACITOR
 T 56500 49000 5 10 1 1 0 6 1
-refdes=C6
+refdes=C3
 T 55900 49100 5 10 0 0 270 2 1
 symversion=0.1
 T 56500 48500 5 10 1 1 0 6 1
@@ -300,11 +300,11 @@ C 46100 55400 1 270 0 capacitor-1.sym
 T 46800 55200 5 10 0 1 270 0 1
 device=CAPACITOR
 T 46400 55100 5 10 1 1 0 0 1
-refdes=C8
+refdes=C6
 T 47000 55200 5 10 0 0 270 0 1
 symversion=0.1
 T 46400 54600 5 10 1 1 0 0 1
-value=0.1uF
+value=1uF
 T 46100 55400 5 10 0 0 0 0 1
 footprint=0805
 T 46400 54400 5 10 1 1 0 0 1
@@ -506,7 +506,7 @@ C 44100 58600 1 0 0 schottky-1.sym
 T 44422 59272 5 10 0 0 0 0 1
 device=DIODE
 T 44400 59100 5 10 1 1 0 0 1
-refdes=D5
+refdes=D3
 T 44441 59432 5 10 0 1 0 0 1
 footprint=SOD123
 T 43900 58300 5 10 1 1 0 0 1
