@@ -379,7 +379,7 @@ device=RESISTOR
 T 65400 44200 5 10 1 1 90 0 1
 refdes=R11
 T 65900 44200 5 10 1 1 90 0 1
-value=2k
+value=10k
 T 65700 44000 5 10 0 0 90 0 1
 footprint=0805
 }
